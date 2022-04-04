@@ -22,9 +22,11 @@
 <body>
 
     <div id="app">
-        <ul>
+        <h1>Dieci email generate random</h1>
+        <ul v-if="allEmail.length>9">
             <li v-for="email in allEmail">{{email}}</li>
         </ul>
+        <div v-else>Generating email...</div>
     </div>
 
 
