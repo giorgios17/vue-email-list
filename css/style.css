@@ -3,6 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+
+#app ul {
+  list-style-type: none;
+  background-color: lightgreen
+}
+
+#app ul li {
+  font-size: 20px;
+  margin-bottom: 5px;
 }
